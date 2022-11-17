@@ -8,12 +8,14 @@ import { PageregisterComponent } from './pages/pageregister/pageregister.compone
 import { PageloginComponent } from './pages/pagelogin/pagelogin.component';
 import { PagecontactComponent } from './pages/pagecontact/pagecontact.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PageaboutusComponent } from './pages/pageaboutus/pageaboutus.component';
 
 const routes: Routes = [
   { path: '', component:  PageloginComponent},
   { path: 'registro', component:  PageregisterComponent},
   { path: 'tienda', component:  PagehomeComponent},
-  { path: 'contacto', component:  PagecontactComponent}
+  { path: 'contacto', component:  PagecontactComponent},
+  { path: 'sobre-nosotros', component:  PageaboutusComponent}
   
 ];
 
@@ -25,6 +27,7 @@ const routes: Routes = [
     PageregisterComponent,
     PageloginComponent,
     PagecontactComponent,
+    PageaboutusComponent,
   ],
   imports: [
     BrowserModule,
