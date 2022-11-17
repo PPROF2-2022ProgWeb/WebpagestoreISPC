@@ -1,0 +1,43 @@
+.fondo{
+    background-color: #007c7c;
+    color:white;
+    height: 95vh;
+}
+
+.card{
+    background-color: #c79200d0;
+    backdrop-filter: blur(20px);
+    border: none;
+    text-align: center;
+    height: 50vh;
+}
+.card a{
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 3%;
+    background-color: #007c7c;
+    text-decoration: none;
+    color: black;
+}
+
+.card a:hover{
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 3%;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+
+.tittle{
+    font-size: 100px;
+}
+
+.card-title{
+    font-size: x-large;
+}
+
+.card-text{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
