@@ -4,6 +4,44 @@
     height: 95vh;
 }
     
+.imgempre{
+    margin-top: 20%;
+    height: 25vh;
+}
+
+p{
+    font-size: large;
+    text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+}
+
+.botonesaboutus{
+    margin-top: 15%;
+}
+
+.botonesaboutus a{
+    display:block;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #c79200d0;
+    padding: 1%;
+    text-decoration: none;
+    color:white;
+}
+.botonesaboutus a:hover{
+    display:block;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: black ;
+    padding: 1%;
+    text-decoration: none;
+    color:#c79200d0;
+}
+
     .form-contacto{
         margin-top: 15%;
         height: max-content;
