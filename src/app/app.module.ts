@@ -9,6 +9,7 @@ import { PageloginComponent } from './pages/pagelogin/pagelogin.component';
 import { PagecontactComponent } from './pages/pagecontact/pagecontact.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PageaboutusComponent } from './pages/pageaboutus/pageaboutus.component';
+import { PiepaginaComponent } from './components/piepagina/piepagina.component';
 
 const routes: Routes = [
   { path: '', component:  PageloginComponent},
@@ -28,6 +29,7 @@ const routes: Routes = [
     PageloginComponent,
     PagecontactComponent,
     PageaboutusComponent,
+    PiepaginaComponent,
   ],
   imports: [
     BrowserModule,

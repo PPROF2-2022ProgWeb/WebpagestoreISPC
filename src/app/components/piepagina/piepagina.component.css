@@ -1,0 +1,12 @@
+footer{
+    height: 5vh;
+}
+
+footer p{
+    align-items: center;
+    color: black;
+}
+
+.piepag{
+    background-color: #a15959;
+}
